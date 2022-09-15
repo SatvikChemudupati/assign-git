@@ -1,0 +1,29 @@
+1. A .gitignore file is a plain text file where each line contains a pattern for files/directories to ignore. The patterns in the files are relative to the location of that .gitignore file. It specifies intentionally untracked files that Git should ignore.
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+these are the files need to be included in the java file
+
+2. fast-forward is executed when there is a direct link between the main/master brnach to the target branch. It simplly concatenates the source branch data to the target branch data by moviing the source branch pointer to the target branch pointer. 
+
+3: branching allows us to branch out from the original code base and isolate their work from the others. It will help in testing out new commits and rectifying them in small blocks rather than debbugin the whole master file . We will be able to merge the versions later.
+
+4: We can have multiple remote repositories but when it comes to project we prefer single main/master repository for them final version.
